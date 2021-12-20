@@ -1,0 +1,13 @@
+:host{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    width: 300px;
+    z-index: 20;
+}
+
+:host div {
+    display: flex;
+    justify-content: space-between;
+}
