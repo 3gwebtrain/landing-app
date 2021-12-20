@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 import {NewsApiService, Articles} from '../news-api.service';
 
 @Component({
@@ -6,7 +6,7 @@ import {NewsApiService, Articles} from '../news-api.service';
   templateUrl: './na-article-list.component.html',
   styleUrls: ['./na-article-list.component.css']
 })
-export class NaArticleListComponent implements OnInit {
+export class NaArticleListComponent {
 
   articles: Articles[] = [];
 
@@ -15,9 +15,6 @@ export class NaArticleListComponent implements OnInit {
       this.articles = articles;
     });
     this.newsApiService.getPage(1);
-  }
-
-  ngOnInit(): void {
   }
 
 }
