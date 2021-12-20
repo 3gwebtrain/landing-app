@@ -16,7 +16,11 @@
       },
       "extends": [
         "plugin:@angular-eslint/recommended",
-        "plugin:@angular-eslint/template/process-inline-templates"
+        "plugin:@angular-eslint/template/process-inline-templates",
+        "plugin:jsx-a11y/recommended"
+      ],
+      "plugins": [
+        "jsx-a11y"
       ],
       "rules": {
         "@angular-eslint/directive-selector": [
