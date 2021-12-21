@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="E:\Training\landing-app\src\app\app.component.spec.ts">
+    <testCase name="AppComponent should create the app" duration="339"/>
+    <testCase name="AppComponent should have as title &apos;landing-app&apos;" duration="16"/>
+    <testCase name="AppComponent should render title" duration="22">
+      <failure message="Error: expect(received).toContain(expected) // indexOf"><![CDATA[Error: expect(received).toContain(expected) // indexOf
+
+Matcher error: received value must not be null nor undefined
+
+Received has value: undefined
+    at E:\Training\landing-app\src\app\app.component.spec.ts:29:66
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:407:30)
+    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:3765:43)
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:406:56)
+    at Zone.Object.<anonymous>.Zone.run (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:167:47)
+    at Object.wrappedFunc (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:4250:34)
+    at Promise.then.completed (E:\Training\landing-app\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (E:\Training\landing-app\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (E:\Training\landing-app\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at _runTest (E:\Training\landing-app\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (E:\Training\landing-app\node_modules\jest-circus\build\run.js:66:9)
+    at _runTestsForDescribeBlock (E:\Training\landing-app\node_modules\jest-circus\build\run.js:60:9)
+    at run (E:\Training\landing-app\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (E:\Training\landing-app\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)]]></failure>
+    </testCase>
+  </file>
+  <file path="E:\Training\landing-app\src\app\weather\forecast\forecast.component.spec.ts">
+    <testCase name="ForecastComponent should create" duration="113">
+      <failure message="NullInjectorError: R3InjectorError(DynamicTestModule)[ForecastService -&gt; HttpClient -&gt; HttpClient]: "><![CDATA[NullInjectorError: R3InjectorError(DynamicTestModule)[ForecastService -> HttpClient -> HttpClient]: 
+  NullInjectorError: No provider for HttpClient!
+    at NullInjector.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11105:27)
+    at R3Injector.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11272:33)
+    at R3Injector.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11272:33)
+    at injectInjectorOnly (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:4746:33)
+    at ɵɵinject (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:4750:42)
+    at Object.ForecastService_Factory [as factory] (ng:///ForecastService/ɵfac.js:5:43)
+    at R3Injector.hydrate (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11442:35)
+    at R3Injector.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11261:33)
+    at NgModuleRef.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:21800:33)
+    at Object.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:21477:35)
+    at lookupTokenUsingModuleInjector (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:3342:39)
+    at getOrCreateInjectable (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:3454:12)
+    at ɵɵdirectiveInject (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:14378:12)
+    at NodeInjectorFactory.ForecastComponent_Factory [as factory] (ng:///ForecastComponent/ɵfac.js:5:45)
+    at getNodeInjectable (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:3549:44)
+    at instantiateRootComponent (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:10144:23)
+    at createRootComponent (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:12245:23)
+    at ComponentFactory.create (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:21566:25)
+    at initComponent (E:\Training\landing-app\node_modules\@angular\core\fesm2015\testing.mjs:1767:51)
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:407:30)
+    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:3765:43)
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:406:56)
+    at Object.onInvoke (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:25450:33)
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:406:56)
+    at Zone.Object.<anonymous>.Zone.run (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:167:47)
+    at NgZone.run (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:25304:28)
+    at TestBedRender3.createComponent (E:\Training\landing-app\node_modules\@angular\core\fesm2015\testing.mjs:1770:41)
+    at Function.createComponent (E:\Training\landing-app\node_modules\@angular\core\fesm2015\testing.mjs:1616:37)
+    at E:\Training\landing-app\src\app\weather\forecast\forecast.component.spec.ts:17:23
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:407:30)
+    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:3765:43)
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:406:56)
+    at Zone.Object.<anonymous>.Zone.run (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:167:47)
+    at Object.wrappedFunc (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:4250:34)
+    at Promise.then.completed (E:\Training\landing-app\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (E:\Training\landing-app\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusHook (E:\Training\landing-app\node_modules\jest-circus\build\run.js:181:40)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at _runTest (E:\Training\landing-app\node_modules\jest-circus\build\run.js:148:5)
+    at _runTestsForDescribeBlock (E:\Training\landing-app\node_modules\jest-circus\build\run.js:66:9)
+    at _runTestsForDescribeBlock (E:\Training\landing-app\node_modules\jest-circus\build\run.js:60:9)
+    at run (E:\Training\landing-app\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (E:\Training\landing-app\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)]]></failure>
+    </testCase>
+  </file>
+  <file path="E:\Training\landing-app\src\app\news-api\na-article-list\na-article-list.component.spec.ts">
+    <testCase name="NaArticleListComponent should create" duration="116">
+      <failure message="NullInjectorError: R3InjectorError(DynamicTestModule)[NewsApiService -&gt; HttpClient -&gt; HttpClient]: "><![CDATA[NullInjectorError: R3InjectorError(DynamicTestModule)[NewsApiService -> HttpClient -> HttpClient]: 
+  NullInjectorError: No provider for HttpClient!
+    at NullInjector.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11105:27)
+    at R3Injector.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11272:33)
+    at R3Injector.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11272:33)
+    at injectInjectorOnly (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:4746:33)
+    at ɵɵinject (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:4750:42)
+    at Object.NewsApiService_Factory [as factory] (ng:///NewsApiService/ɵfac.js:5:42)
+    at R3Injector.hydrate (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11442:35)
+    at R3Injector.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11261:33)
+    at NgModuleRef.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:21800:33)
+    at Object.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:21477:35)
+    at lookupTokenUsingModuleInjector (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:3342:39)
+    at getOrCreateInjectable (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:3454:12)
+    at ɵɵdirectiveInject (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:14378:12)
+    at NodeInjectorFactory.NaArticleListComponent_Factory [as factory] (ng:///NaArticleListComponent/ɵfac.js:5:50)
+    at getNodeInjectable (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:3549:44)
+    at instantiateRootComponent (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:10144:23)
+    at createRootComponent (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:12245:23)
+    at ComponentFactory.create (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:21566:25)
+    at initComponent (E:\Training\landing-app\node_modules\@angular\core\fesm2015\testing.mjs:1767:51)
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:407:30)
+    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:3765:43)
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:406:56)
+    at Object.onInvoke (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:25450:33)
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:406:56)
+    at Zone.Object.<anonymous>.Zone.run (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:167:47)
+    at NgZone.run (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:25304:28)
+    at TestBedRender3.createComponent (E:\Training\landing-app\node_modules\@angular\core\fesm2015\testing.mjs:1770:41)
+    at Function.createComponent (E:\Training\landing-app\node_modules\@angular\core\fesm2015\testing.mjs:1616:37)
+    at E:\Training\landing-app\src\app\news-api\na-article-list\na-article-list.component.spec.ts:17:23
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:407:30)
+    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:3765:43)
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:406:56)
+    at Zone.Object.<anonymous>.Zone.run (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:167:47)
+    at Object.wrappedFunc (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:4250:34)
+    at Promise.then.completed (E:\Training\landing-app\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (E:\Training\landing-app\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusHook (E:\Training\landing-app\node_modules\jest-circus\build\run.js:181:40)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at _runTest (E:\Training\landing-app\node_modules\jest-circus\build\run.js:148:5)
+    at _runTestsForDescribeBlock (E:\Training\landing-app\node_modules\jest-circus\build\run.js:66:9)
+    at _runTestsForDescribeBlock (E:\Training\landing-app\node_modules\jest-circus\build\run.js:60:9)
+    at run (E:\Training\landing-app\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (E:\Training\landing-app\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)]]></failure>
+    </testCase>
+  </file>
+  <file path="E:\Training\landing-app\src\app\notifications\notification-list\notification-list.component.spec.ts">
+    <testCase name="NotificationListComponent should create" duration="51"/>
+  </file>
+  <file path="E:\Training\landing-app\src\app\news-api\news-api.service.spec.ts">
+    <testCase name="NewsApiService should be created" duration="18">
+      <failure message="NullInjectorError: R3InjectorError(DynamicTestModule)[NewsApiService -&gt; HttpClient -&gt; HttpClient]: "><![CDATA[NullInjectorError: R3InjectorError(DynamicTestModule)[NewsApiService -> HttpClient -> HttpClient]: 
+  NullInjectorError: No provider for HttpClient!
+    at NullInjector.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11105:27)
+    at R3Injector.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11272:33)
+    at R3Injector.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11272:33)
+    at injectInjectorOnly (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:4746:33)
+    at ɵɵinject (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:4750:42)
+    at Object.NewsApiService_Factory [as factory] (ng:///NewsApiService/ɵfac.js:5:42)
+    at R3Injector.hydrate (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11442:35)
+    at R3Injector.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11261:33)
+    at NgModuleRef.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:21800:33)
+    at TestBedRender3.inject (E:\Training\landing-app\node_modules\@angular\core\fesm2015\testing.mjs:1713:52)
+    at Function.inject (E:\Training\landing-app\node_modules\@angular\core\fesm2015\testing.mjs:1609:37)
+    at E:\Training\landing-app\src\app\news-api\news-api.service.spec.ts:10:23
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:407:30)
+    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:3765:43)
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:406:56)
+    at Zone.Object.<anonymous>.Zone.run (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:167:47)
+    at Object.wrappedFunc (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:4250:34)
+    at Promise.then.completed (E:\Training\landing-app\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (E:\Training\landing-app\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusHook (E:\Training\landing-app\node_modules\jest-circus\build\run.js:181:40)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at _runTest (E:\Training\landing-app\node_modules\jest-circus\build\run.js:148:5)
+    at _runTestsForDescribeBlock (E:\Training\landing-app\node_modules\jest-circus\build\run.js:66:9)
+    at _runTestsForDescribeBlock (E:\Training\landing-app\node_modules\jest-circus\build\run.js:60:9)
+    at run (E:\Training\landing-app\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (E:\Training\landing-app\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)]]></failure>
+    </testCase>
+  </file>
+  <file path="E:\Training\landing-app\src\app\weather\forecast.service.spec.ts">
+    <testCase name="ForecastService should be created" duration="17">
+      <failure message="NullInjectorError: R3InjectorError(DynamicTestModule)[ForecastService -&gt; HttpClient -&gt; HttpClient]: "><![CDATA[NullInjectorError: R3InjectorError(DynamicTestModule)[ForecastService -> HttpClient -> HttpClient]: 
+  NullInjectorError: No provider for HttpClient!
+    at NullInjector.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11105:27)
+    at R3Injector.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11272:33)
+    at R3Injector.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11272:33)
+    at injectInjectorOnly (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:4746:33)
+    at ɵɵinject (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:4750:42)
+    at Object.ForecastService_Factory [as factory] (ng:///ForecastService/ɵfac.js:5:43)
+    at R3Injector.hydrate (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11442:35)
+    at R3Injector.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:11261:33)
+    at NgModuleRef.get (E:\Training\landing-app\node_modules\@angular\core\fesm2015\core.mjs:21800:33)
+    at TestBedRender3.inject (E:\Training\landing-app\node_modules\@angular\core\fesm2015\testing.mjs:1713:52)
+    at Function.inject (E:\Training\landing-app\node_modules\@angular\core\fesm2015\testing.mjs:1609:37)
+    at E:\Training\landing-app\src\app\weather\forecast.service.spec.ts:10:23
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:407:30)
+    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:3765:43)
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:406:56)
+    at Zone.Object.<anonymous>.Zone.run (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:167:47)
+    at Object.wrappedFunc (E:\Training\landing-app\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:4250:34)
+    at Promise.then.completed (E:\Training\landing-app\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (E:\Training\landing-app\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusHook (E:\Training\landing-app\node_modules\jest-circus\build\run.js:181:40)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at _runTest (E:\Training\landing-app\node_modules\jest-circus\build\run.js:148:5)
+    at _runTestsForDescribeBlock (E:\Training\landing-app\node_modules\jest-circus\build\run.js:66:9)
+    at _runTestsForDescribeBlock (E:\Training\landing-app\node_modules\jest-circus\build\run.js:60:9)
+    at run (E:\Training\landing-app\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (E:\Training\landing-app\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)]]></failure>
+    </testCase>
+  </file>
+  <file path="E:\Training\landing-app\src\app\shared\paginator\paginator.component.spec.ts">
+    <testCase name="PaginatorComponent should create" duration="67"/>
+  </file>
+  <file path="E:\Training\landing-app\src\app\news-api\trim-outlet-name.pipe.spec.ts">
+    <testCase name="TrimOutletNamePipe create an instance" duration="3"/>
+  </file>
+  <file path="E:\Training\landing-app\src\app\notifications\notifications.service.spec.ts">
+    <testCase name="NotificationsService should be created" duration="14"/>
+  </file>
+</testExecutions>
