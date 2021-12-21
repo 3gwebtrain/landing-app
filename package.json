@@ -53,5 +53,7 @@
     "jest-sonar-reporter": "^2.0.0",
     "typescript": "~4.4.3"
   },
-  "jestSonar": {}
+  "volta": {
+    "node": "14.18.2"
+  }
 }
