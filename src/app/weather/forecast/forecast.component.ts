@@ -18,6 +18,7 @@ export class ForecastComponent implements OnInit {
     this.forecast$ = this.forecastService.getForecast();
     this.newForecast$ = this.forecastService.entities$;
     this.loading$ = this.forecastService.loading$;
+    console.log('tst');
   }
 
   ngOnInit() {
