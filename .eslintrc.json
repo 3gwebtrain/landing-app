@@ -59,6 +59,14 @@
         "@angular-eslint/template/no-autofocus": 2,
         "@angular-eslint/template/no-distracting-elements": 2
       }
+    },
+    {
+      "files": [
+        "*.ts"
+      ],
+      "extends": [
+        "plugin:ngrx/recommended"
+      ]
     }
   ]
 }
