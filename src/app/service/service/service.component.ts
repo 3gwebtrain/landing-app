@@ -1,27 +1,24 @@
 import {Component, OnInit} from '@angular/core';
 import {Observable} from 'rxjs';
-import {ForecastService, OpenWeatherResponse} from '../forecast.service';
-
+import {ForecastService, OpenWeatherResponse} from 'src/app/weather/forecast.service';
 
 @Component({
-  selector: 'app-forecast',
-  templateUrl: './forecast.component.html',
-  styleUrls: ['./forecast.component.css']
+  selector: 'app-service',
+  templateUrl: './service.component.html',
+  styleUrls: ['./service.component.css']
 })
-export class ForecastComponent implements OnInit {
+export class ServiceComponent implements OnInit {
 
   forecast$: Observable<{dateString: string; temp: number;}[]>;
   newForecast$: Observable<OpenWeatherResponse[]>;
-  loading$: Observable<boolean>;
 
   constructor(private forecastService: ForecastService) {
     this.forecast$ = this.forecastService.getForecast();
     this.newForecast$ = this.forecastService.entities$;
-    this.loading$ = this.forecastService.loading$;
   }
 
   ngOnInit() {
-    this.forecastService.getAll().subscribe((data: any) => this.newForecast$ = data);
+    this.forecastService.entities$.subscribe(data => console.log('cache', data));
   }
 
 }
